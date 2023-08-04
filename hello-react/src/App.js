@@ -1,14 +1,12 @@
 import './App.css';
 
-function App() {
-  const name = '리액트';
-  return (
-    <>
-      <div className="react">{name}</div>
-      // 이런 주석이나 /* 이런 주석은 따잇 당한다. */
-      <input />
-    </>
-  );
+import React, { Component } from 'react';
+
+class App extends Component {
+  render() {
+    const name = 'react';
+    return <div className="react">{name}</div>;
+  }
 }
 
 export default App;
