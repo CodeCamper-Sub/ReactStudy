@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import Info from './Info';
+import React from 'react';
+import Average from './Average';
 
 const App = () => {
-  const [visible, setVisible] = useState(false);
-  return <Info />;
+  return <Average />;
 };
 
 export default App;
